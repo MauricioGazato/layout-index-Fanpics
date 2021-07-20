@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: #E5E5E5;
+    color: #565959;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%; /*Setando para a minha div ter 100% do tamanho maximo*/
+    height: 100vh; /*view height*/
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  header img{
+    margin: 0 32px;
+  }
+
+.contentWrapper{
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.actions{
+    max-width: 260px;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.actionsLabel{
+   font-weight: 400;
+   font-size: 24px;
+   text-align: center;
+   padding: 12px 0;
+   border-bottom: 1px solid #c4c4c4;
+}
+
+button.primaryAction{
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    color: #565959;
+    background-color: #f6f6f6;
+    border-radius: 8px;
+}
+
+.actionsBox{
+    padding: 8px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.contentFlow{
+    max-width: 740px;
+    width: 100%;
+}
+
+article.postCard{
+    height: 315px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.cardInfo{
+    max-width: 180px;
+    width: 100%;
+    background-color: #fff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infoTitle{
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.infoTitle:first-child{
+    margin-top: 0;
+}
+
+.infoText{
+    max-height: 105px;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.previewImage{
+    width: 100%;
+    background-image: url('https://picsum.photos/id/237/550/350');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttonBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textButton{
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+}
+
+.defaultButton{
+    color: #565959;
+}
+
+.redButton{
+    color: #e35c5c;
+}
